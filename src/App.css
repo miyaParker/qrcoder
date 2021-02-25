@@ -1,0 +1,68 @@
+.app{
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  background-color: #ECF7FF;
+}
+.flex{
+  width: 90vw;
+  margin-left: 10vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+.sidebar{
+  background-color: white;
+  width: auto;
+}
+form{
+  border: none;
+}
+::placeholder{
+  color: #97B1D6;
+  font-family: inherit;
+  
+}
+a{
+  text-decoration: none;
+}
+.button{
+  cursor: pointer;
+  outline: none;
+  width: auto;
+  color: #fff;
+  padding: 1.1rem 2rem;
+  border-radius: 4rem;
+  border: none;
+}
+.buttons{
+  margin: 0 2.5rem;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2rem;
+}
+.yellow{
+  background-color: #FF9B05;
+}
+.light-blue{
+  background-color: #3DBCF9;
+}
+.form{
+  margin-left: 5vw;
+}
+label{
+  display: block;
+  font-weight: 600;
+  color: #012889;
+  font-size: 4rem;
+}
+textarea{
+  background-color: inherit;
+  border: none;
+  outline: none;
+  overflow: hidden;
+}
+ textarea:focus{
+  outline: none;
+}
